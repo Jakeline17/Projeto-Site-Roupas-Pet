@@ -1,0 +1,25 @@
+.btn_container {
+  width: 150px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#buy_btn {
+  padding: 10px;
+  background-color: #010101;
+  color: #fff;
+  font-size: .8rem;
+  letter-spacing: 1px;
+  height: 40px;
+  width: 150px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#buy_btn:hover {
+  cursor: pointer;
+  transition: 1s;
+  background-color: #343232;
+  outline: 1px solid #000;
+}
